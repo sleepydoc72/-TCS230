@@ -8,6 +8,7 @@ int freq=0;
 int red;
 int green;
 int blue;
+// выставить максимальные и минимальные значения датчика цвета
 int maxRed = 353;
 int minRed = 10;
 int maxGreen = 406;
@@ -33,7 +34,7 @@ void setup() {
 } 
   
 void loop() { 
-      // установить R фильтр 
+  // установить R фильтр 
   digitalWrite(pinS2,0); 
   digitalWrite(pinS3,0); 
   // Получение частоты на выходе 
